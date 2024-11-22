@@ -26,7 +26,14 @@
 		/// Zipper effect enum
 		/// </summary>
 		public static RoomSettings.RoomEffect.Type Zippers = new(nameof(Zippers), true);
-
+		/// <summary>
+		/// BallBug A effect enum
+		/// </summary>
+		public static RoomSettings.RoomEffect.Type BallBugsA = new(nameof(BallBugsA), true);
+		/// <summary>
+		/// BallBug A effect enum
+		/// </summary>
+		public static RoomSettings.RoomEffect.Type BallBugsB = new(nameof(BallBugsB), true);
 		/// <summary>
 		/// Glowing Swimmer insect enum
 		/// </summary>
@@ -51,6 +58,14 @@
 		/// Zipper enum
 		/// </summary>
 		public static CosmeticInsect.Type Zipper = new(nameof(Zipper), true);
+		/// <summary>
+		/// BallBug A enum
+		/// </summary>
+		public static CosmeticInsect.Type BallBugA = new(nameof(BallBugA), true);
+		/// <summary>
+		/// BallBug A enum
+		/// </summary>
+		public static CosmeticInsect.Type BallBugB = new(nameof(BallBugB), true);
 
 		/// <summary>
 		/// Insect category

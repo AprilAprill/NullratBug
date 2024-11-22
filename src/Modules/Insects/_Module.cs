@@ -17,7 +17,7 @@ namespace RegionKit.Modules.Insects
 			MosquitoInsectsCI.Apply();
 			ButterfliesCI.Apply();
 			ZippersCI.Apply();
-
+			BallBugCI.Apply();
 			On.DevInterface.RoomSettingsPage.DevEffectGetCategoryFromEffectType += RoomSettingsPageDevEffectGetCategoryFromEffectType;
 		}
 
@@ -28,6 +28,7 @@ namespace RegionKit.Modules.Insects
 			MosquitoInsectsCI.Undo();
 			ButterfliesCI.Undo();
 			ZippersCI.Undo();
+			BallBugCI.Undo();
 			On.DevInterface.RoomSettingsPage.DevEffectGetCategoryFromEffectType -= RoomSettingsPageDevEffectGetCategoryFromEffectType;
 		}
 
@@ -39,7 +40,9 @@ namespace RegionKit.Modules.Insects
 				type == _Enums.MosquitoInsects ||
 				type == _Enums.ButterfliesA ||
 				type == _Enums.ButterfliesB ||
-				type == _Enums.Zippers)
+				type == _Enums.Zippers ||
+				type == _Enums.BallBugsA ||
+				type == _Enums.BallBugsB)
 				res = _Enums.RegionKit;
 			return res;
 		}
